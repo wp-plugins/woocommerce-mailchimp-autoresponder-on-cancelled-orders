@@ -29,8 +29,7 @@ When an order is failed or cancelled we add that user email to a mailchimp list.
 
 
 == Screenshots ==
-
-Not yet
+1. Settings page
 
 == Changelog ==
 
