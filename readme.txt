@@ -29,11 +29,11 @@ When an order is failed or cancelled we add that user email to a mailchimp list.
 
 
 == Screenshots ==
-
-Not yet
+1. Settings page
 
 == Changelog ==
-
+= 1.0.1 *
+* Now it works. Solved bugs.
 = 1.0 =
 * Stable version. It's just work fine.
 

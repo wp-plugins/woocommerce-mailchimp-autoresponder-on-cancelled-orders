@@ -5,7 +5,7 @@
  * Description: Send an email to customers who doesn't ended the order process. This simple email can improve your conversions rates in more than a 50%.
  * Author: Víctor Falcón
  * Author URI: http://www.victorfalcon.es
- * Version: 1.0
+ * Version: 1.0.1
  *
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
