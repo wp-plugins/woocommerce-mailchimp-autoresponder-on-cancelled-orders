@@ -67,10 +67,10 @@ class WC_Mailchimp_Autoresponder_Cancelled_Orders extends WC_Integration {
         $recipient    = $object->billing_email;
 
         // Init mc Class
-        $mc = new MailChimp($this->get_option( 'mailchimp_api_key'));
+        $mc = new MailChimp($this->mailchimp_api_key);
         
         $result = $mc->call('lists/subscribe', array(
-            'id'         => $this->get_option( 'mailchimp_list_id' ),
+            'id'         => $this->mailchimp_list_id,
             'email'      => array( 'email' => $object->billing_email ),
             'merge_vars' => array(
                                 'FNAME' => $object->billing_first_name,
